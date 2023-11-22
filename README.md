@@ -5,12 +5,14 @@ In this project we tried to approach the project through the things we learned i
 First we analyzed the requirements. There was a need for flexibility in shipping strategies and package states and so we used design patterns for their implementations. Then we adopted a TDD approach to ensure robustness and maintainability through the development process.
 
 We created the initial test classes (DeliveredStateTest - InTransitStateTest).We implemented test cases so that we would ensure that the states are updated and printed correctly. Then we implemented the state machine using the State design pattern as below:
-<img src=https://uploadkon.ir/uploads/6c0722_23image-2023-11-22T19-54-19-053Z.png>
+<img src=https://uploadkon.ir/uploads/072b22_23image-2023-11-22T19-53-33-015Z.png>
+
 
 Through this process for the state handling, we created the PackageState Interface corresponding to the State Interface as well as different State classes (DeliveredState - InTransitState) corresponding the Draft class in picture provided.
 
 Then, we implemented the “ExpressShippingStrategy” and “StandardShippingStrategy” and other classes using the Strategy design pattern as below:
-<img src=https://uploadkon.ir/uploads/072b22_23image-2023-11-22T19-53-33-015Z.png>
+
+<img src=https://uploadkon.ir/uploads/6c0722_23image-2023-11-22T19-54-19-053Z.png>
 
 For the strategy handling, we created the ShippingStrategy Interface corresponding to the RouteStrategy of the provided pattern picture as well as different Strategy classes (ExpressShippingStrategy - StandardShippingStrategy) to be able to change the shipping ways of the package.
 
