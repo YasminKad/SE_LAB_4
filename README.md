@@ -33,6 +33,7 @@ We also added additional mock classes for further verification between the packa
 <p>
 ![image_2023_11_22T18_11_28_273Z](https://github.com/YasminKad/SE_LAB_4/assets/59218135/19c617c6-268b-4b8f-ab5f-0cd0a19d9df1)
 ![image_2023_11_22T18_06_13_565Z](https://github.com/YasminKad/SE_LAB_4/assets/59218135/a2b42356-86cc-408b-ae23-cbce02a2b50a)
+<img href=https://s6.uupload.ir/files/image_2023_11_22t18_11_28_273z_ds09.png>
 </p>
 
 <h2>Questions</h2>
