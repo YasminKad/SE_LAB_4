@@ -2,7 +2,7 @@
 
 Q1)
 
-Q2)
+Q2) Both the Strategy and State design patterns fall within the category of behavioral patterns, which govern how objects collaborate and communicate. While the Strategy pattern highlights the use of interchangeable algorithms, the State pattern is centered around altering an object's behavior in response to changes in its internal state.
 
 Q3)
 
