@@ -4,7 +4,9 @@ Q1)
 
 Q2) Both the Strategy and State design patterns fall within the category of behavioral patterns, which govern how objects collaborate and communicate. While the Strategy pattern highlights the use of interchangeable algorithms, the State pattern is centered around altering an object's behavior in response to changes in its internal state.
 
-Q3)
+Q3) Applying the Singleton pattern to our current system package offers an effective way to manage class instances. This creational design pattern guarantees a single instance for a class, enabling centralized access to this unique instance. It ensures that the class has only one instance, facilitating global access throughout the system.
+
+Implementation Details: To implement the Singleton pattern for this project, a Package class is required. In this class, a concealed instance of the package serves as a field, and the class declares the static method getInstance(). This method consistently returns the same instance of the class every time it is invoked. If no instance exists, a new Package is constructed and set as the static instance available in the class. If it already exists, the existing instance is returned. The constructor of the Package class (representing the Singleton) should be concealed from the client code, ensuring that calling the getInstance method remains the sole method of obtaining the Singleton object.
 
 Q4) Singleton and SOLID Principles:
 
