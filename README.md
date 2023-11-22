@@ -33,6 +33,22 @@ We also added additional mock classes for further verification between the packa
 <h2>Questions</h2>
 <h3>Question 1</h3>
 
+<h4>Creational Patterns</h4>
+<p>
+Purpose: Focuses on the process of object creation, providing flexibility in instantiation.
+Examples: Singleton ensures a single instance, Factory Method lets subclasses alter created object types, Abstract Factory creates families of related objects.
+</p>
+<h4>Structural Patterns</h4>
+<p>
+Purpose: Deals with class and object composition to form larger structures.
+Examples: Adapter allows using an existing class interface as another, Decorator attaches responsibilities dynamically, Composite composes objects into tree structures.
+</p>
+<h4>Behavioral Patterns</h4>
+<p>
+Purpose: Defines communication between classes or objects.
+Examples: Observer defines a one-to-many dependency, Strategy defines a family of algorithms and makes them interchangeable, Command encapsulates a request as an object, allowing for parameterization of clients, and more.
+
+
 <h3>Question 2</h3>
 <p>Both the Strategy and State design patterns fall within the category of behavioral patterns, which govern how objects collaborate and communicate. While the Strategy pattern highlights the use of interchangeable algorithms, the State pattern is centered around altering an object's behavior in response to changes in its internal state.</p>
 
