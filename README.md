@@ -30,10 +30,9 @@ We also added additional mock classes for further verification between the packa
 </p>
 <p>In order to run the project you have to run the ShippingSystem.java file. That's our version of the main.java file in the project.</p>
 <h2>Pictures</h2>
+![image_2023_11_22T18_06_13_565Z](https://github.com/YasminKad/SE_LAB_4/assets/59218135/19d2b0ee-3af9-4e6b-9263-c3064400b20d)
+![image_2023_11_22T18_11_28_273Z](https://github.com/YasminKad/SE_LAB_4/assets/59218135/2e850284-3581-41fa-87d0-791f28676905)
 
-![image_2023_11_22T18_06_13_565Z.png](pics/image_2023_11_22T18_06_13_565Z.png)
-
-![image_2023_11_22T18_11_28_273Z.png](pics/image_2023_11_22T18_11_28_273Z.png)
 
 <h2>Questions</h2>
 <h3>Question 1</h3>
