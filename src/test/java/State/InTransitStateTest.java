@@ -1,20 +1,19 @@
 package State;
 import org.example.Package;
-import org.example.state.DeliveredState;
+import org.example.state.InTransitState;
 import org.junit.Test;
-import org.example.strategy.StandardShippingStrategy;
 
 import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;
 
 import static org.junit.Assert.assertEquals;
 
-public class DeliveredStateTest {
+public class InTransitStateTest {
     @Test
-    public void updateStateShouldPrintDeliveredMessage() {
+    public void updateStateShouldPrintInTransitMessage() {
         Package myPackage = new Package();
-        DeliveredState state = new DeliveredState(myPackage);
-        assertEquals("Package is now Delivered.", captureOutput(state::updateState));
+        InTransitState state = new InTransitState(myPackage);
+        assertEquals("Package is now In Transit.", captureOutput(state::updateState));
     }
 
     private String captureOutput(Runnable code) {

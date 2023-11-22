@@ -9,15 +9,15 @@ import static org.junit.Assert.assertEquals;
 
 public class ShippingSystemTest {
     @Test
-    void shipFunctionShouldPrintExpressShippingMessage() {
+    public void shipFunctionShouldPrintExpressShippingMessage() {
         ExpressShippingStrategy strategy = new ExpressShippingStrategy();
-        assertEquals("Package is shipped by Express Shipping.", captureOutput(strategy::ship));
+        assertEquals("Package is shipped by Express Shipping - Shipping Cost: 30$", captureOutput(strategy::ship));
     }
 
     @Test
-    void shipShouldPrintStandardShippingMessage() {
+    public void shipShouldPrintStandardShippingMessage() {
         StandardShippingStrategy strategy = new StandardShippingStrategy();
-        assertEquals("Package is shipped by Standard Shipping.", captureOutput(strategy::ship));
+        assertEquals("Package is shipped by Standard Shipping - Shipping Cost: 15$", captureOutput(strategy::ship));
     }
 
     private String captureOutput(Runnable code) {
