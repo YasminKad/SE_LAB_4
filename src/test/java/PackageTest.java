@@ -39,7 +39,7 @@ class PackageTest {
     @Test
     void updatePackageState_shouldInvokeUpdateState() {
         Package myPackage = new Package();
-        PackageStateMock stateMock = new PackageStateMock(myPackage);
+        PackageStateMock stateMock = new PackageStateMock();
         myPackage.setPackageState(stateMock);
         myPackage.updatePackageState();
         assertTrue(stateMock.isUpdateStateMethodInvoked());
