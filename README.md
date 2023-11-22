@@ -31,6 +31,10 @@ We also added additional mock classes for further verification between the packa
 <p>In order to run the project you have to run the ShippingSystem.java file. That's our version of the main.java file in the project.</p>
 <h2>Pictures</h2>
 
+![image_2023_11_22T18_06_13_565Z.png](pics/image_2023_11_22T18_06_13_565Z.png)
+
+![image_2023_11_22T18_11_28_273Z.png](pics/image_2023_11_22T18_11_28_273Z.png)
+
 <h2>Questions</h2>
 <h3>Question 1</h3>
 <h4>Creational Patterns</h4>
