@@ -1,4 +1,34 @@
 # SE_LAB_4
+<h2>Project Report</h2>
+<p>
+In this project we tried to approach the project through the things we learned in the previous lab experiments like TDD and also via different design patterns.
+</p>
+<p>
+First we analyzed the requirements. There was a need for flexibility in shipping strategies and package states.
+</p>
+<p>
+Then we adopted a TDD approach to ensure robustness and maintainability through the development process.
+</p>
+<p>
+We created the initial test classes (DeliveredStateTest, InTransitStateTest, …) we used the updateState() method. We implemented these test cases so that we would ensure that the states are updated/prinnted correctly.
+</p>
+<p>
+We also created a mock class to help us with the tests that we were running. More specifically to assist in testing by verifying method invocations.
+</p>
+<p>
+Then, we implemented the “ExpressShippingStrategy” and “StandardShippingStrategy” and other classes other than test classes to implement our requirements.
+</p>
+<p>
+We implemented the package class with the methods to set the shipping strategy and package state to perform package shipping and state updates. Then we added the related tests for related verification.
+</p>
+<p>
+Then it's time for package class implementation and then verify it with the PackageTest class. After that we debugged and refined the code until it worked properly and passed all the tests.
+</p>
+<p>
+We have considered TDD and SOLID principles all along coding and implementing the project. We made sure that the changes that were made their way to the expected outcome.
+We also added additional mock classes for further verification between the package class and its dependencies.
+</p>
+<p>In order to run the project you have to run the ShippingSystem.java file. That's our version of the main.java file in the project.</p>
 
 <h2>Questions</h2>
 <h3>Question 1</h3>
